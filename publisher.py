@@ -85,5 +85,6 @@ for crl in crawlerList:
     #print(dict)
     #msg = json.dumps(dict, ensure_ascii=False)
 
+    #IP 수정
+    #publish.single(crl.topic, msg, hostname = "ip", port = 1883, protocol = mqtt.MQTTv311)
     
-    #mqttc.publish(crl.topic, msg)
