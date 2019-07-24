@@ -1,6 +1,6 @@
 #-*-coding: utf-8-*-
 
-#import paho.mqtt.client as mqtt
+import paho.mqtt.client as mqtt
 import crawler
 import json
 import time
@@ -83,8 +83,8 @@ for crl in crawlerList:
 
     
     #print(dict)
-    #msg = json.dumps(dict, ensure_ascii=False)
+    msg = json.dumps(dict, ensure_ascii=False)
 
     #IP 수정
-    #publish.single(crl.topic, msg, hostname = "ip", port = 1883, protocol = mqtt.MQTTv311)
+    publish.single(crl.topic, msg, hostname = "ip", port = 1883, protocol = mqtt.MQTTv311)
     
