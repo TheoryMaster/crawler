@@ -15,9 +15,8 @@ usr/bin/crontab
 
 
 실행에 앞서 파이썬 bs4, paho의 라이브러리가 필요합니다.
+다음의 명령어를 실행해 라이브러리를 설치해주세요.
 
 ┌ pip install bs4
 
 ┕ pip install paho-mqtt
-
-를 실행해 라이브러리를 설치해주세요
